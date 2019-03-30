@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/posts/posts",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5682f1",
+    "navigationBarTitleText": "健康商城",
+    "navigationBarTextStyle": "white"
+  }
+}

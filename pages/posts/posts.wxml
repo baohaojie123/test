@@ -1,0 +1,7 @@
+<view>
+  <swiper>
+    <swiper-item><image src="/image/title1.webp"></image></swiper-item>
+    <swiper-item><image src="/image/title2.webp"></image></swiper-item>
+    <swiper-item><image src="/image/title3.webp"></image></swiper-item>
+  </swiper>
+</view>
