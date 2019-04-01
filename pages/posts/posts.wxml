@@ -1,7 +1,294 @@
+<view class="section">
+  <icon type="search" size="15" />
+  <input placeholder="输入药品名称查询" auto-focus placeholder-class="center" />
+</view>
 <view>
-  <swiper>
-    <swiper-item><image src="/image/title1.webp"></image></swiper-item>
-    <swiper-item><image src="/image/title2.webp"></image></swiper-item>
-    <swiper-item><image src="/image/title3.webp"></image></swiper-item>
+  <swiper class='banner' indicator-dots='true' indicator-color='#fff' indicator-active-color='#30a9ff' autoplay='true'>
+    <swiper-item>
+      <image src="/image/title1.webp"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/title2.webp"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/image/title3.webp"></image>
+    </swiper-item>
   </swiper>
+</view>
+<view class='detail-border'>
+  <view class='detail'>
+    <view>
+      <image src='/image/time-icon.png'></image>
+      <text>2小时内到达</text>
+    </view>
+    <view>
+      <image src='/image/post-icon.png'></image>
+      <text>满48免运费</text>
+    </view>
+    <view>
+      <image src='/image/shop-icon.png'></image>
+      <text>实体门店保障</text>
+    </view>
+  </view>
+</view>
+<view class='kind'>
+  <swiper indicator-dots='true'>
+    <swiper-item>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>肠胃用药</text>
+      </view>
+      <view>
+        <image src='/image/kind2.png'></image>
+        <text>儿童用药</text>
+      </view>
+      <view>
+        <image src='/image/kind3.png'></image>
+        <text>五官用药</text>
+      </view>
+      <view>
+        <image src='/image/kind4.png'></image>
+        <text>风湿骨伤</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>妇科用药</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>肠胃用药</text>
+      </view>
+      <view>
+        <image src='/image/kind2.png'></image>
+        <text>儿童用药</text>
+      </view>
+      <view>
+        <image src='/image/kind3.png'></image>
+        <text>五官用药</text>
+      </view>
+      <view>
+        <image src='/image/kind4.png'></image>
+        <text>风湿骨伤</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>妇科用药</text>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view>
+        <image src='/image/kind4.png'></image>
+        <text>风湿骨伤</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>妇科用药</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>肠胃用药</text>
+      </view>
+      <view>
+        <image src='/image/kind2.png'></image>
+        <text>儿童用药</text>
+      </view>
+      <view>
+        <image src='/image/kind3.png'></image>
+        <text>五官用药</text>
+      </view>
+      <view>
+        <image src='/image/kind4.png'></image>
+        <text>风湿骨伤</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>妇科用药</text>
+      </view>
+      <view>
+        <image src='/image/kind1.png'></image>
+        <text>肠胃用药</text>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='recommend'>
+  <view class='recommend-child'>
+    <text class='title1'>健康精选推荐</text>
+    <swiper indicator-dots='true'>
+      <swiper-item>
+        <view class='drug'>
+          <image src='/image/image1.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+
+        <view class='drug'>
+          <image src='/image/image2.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+        <view class='drug'>
+          <image src='/image/image3.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='drug'>
+          <image src='/image/image1.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+
+        <view class='drug'>
+          <image src='/image/image2.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+        <view class='drug'>
+          <image src='/image/image3.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+<view class='activity'>
+  <image src='/image/img7.png'></image>
+  <image src='/image/img8.png'></image>
+</view>
+<view class='recommend'>
+  <view class='recommend-child'>
+    <text class='title1'>送礼到家</text>
+    <text class='gift-more'>更多></text>
+    <swiper indicator-dots='true'>
+      <swiper-item>
+        <view class='drug'>
+          <image src='/image/image1.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+
+        <view class='drug'>
+          <image src='/image/image2.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+        <view class='drug'>
+          <image src='/image/image3.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='drug'>
+          <image src='/image/image1.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+
+        <view class='drug'>
+          <image src='/image/image2.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+        <view class='drug'>
+          <image src='/image/image3.webp'></image>
+          <text class='drug-name'>汤臣倍健</text>
+          <text class='drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+          <view class='price'>
+            <text class='now-price'>￥600</text>
+            <text class='old-price'>￥780</text>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+
+
+<view class='hot'>
+  <view class='hot-child'>
+    <text class='title1'>热销推荐</text>
+    <view class='hot-display'>
+      <view>
+        <image src='/image/image1.webp'></image>
+
+      </view>
+      <view class='hot-drug'>
+        <text class='hot-drug-name'>汤臣倍健</text>
+        <text class='hot-drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+        <view class='discount'>
+          <text>限时五折</text>
+        </view>
+        <view class='hot-price'>
+          <text class='now-price'>￥600</text>
+          <text class='old-price'>￥780</text>
+        </view>
+      </view>
+    </view>
+    <view class='hot-display'>
+      <view>
+        <image src='/image/image1.webp'></image>
+
+      </view>
+      <view class='hot-drug'>
+        <text class='hot-drug-name'>汤臣倍健</text>
+        <text class='hot-drug-detail' style=''>买1发3】养生堂牌天然维生素E软胶囊 250mg/粒*200粒VE正品</text>
+        <view class='discount'>
+          <text>限时五折</text>
+        </view>
+        <view class='hot-price'>
+          <text class='now-price'>￥600</text>
+          <text class='old-price'>￥780</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  
 </view>

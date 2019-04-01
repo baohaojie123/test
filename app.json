@@ -1,12 +1,38 @@
 {
   "pages": [
     "pages/posts/posts",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#5682f1",
+    "navigationBarBackgroundColor": "#30a9ff",
     "navigationBarTitleText": "健康商城",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/image/icon1.png",
+        "selectedIconPath": "/image/icon1.png"
+      },
+      {
+        "pagePath": "pages/posts/posts",
+        "iconPath": "/image/icon2.png",
+        "selectedIconPath": "/image/icon2.png"
+      },
+      {
+        "pagePath": "pages/posts/posts",
+        "iconPath": "/image/icon3.png",
+        "selectedIconPath": "/image/icon3.png"
+      },
+      {
+        "pagePath": "pages/posts/posts",
+        "iconPath": "/image/icon4.png",
+        "selectedIconPath": "/image/icon4.png"
+      }
+    ]
   }
 }
